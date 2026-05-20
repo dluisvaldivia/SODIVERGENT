@@ -1,0 +1,263 @@
+SITE REQUIREMENTS:
+
+STACK:
+
+- Vite
+- React
+- Typescript
+- Tailwind CSS
+
+ADDITIONAL TECH AND REQUIREMENTS:
+
+- simple Model-View-Presenter (MVP) architecture
+- a13y: WCAG/EAA compliant
+- Location based pricing: SPAIN, EU, and GLOBAL (rest of locations).
+- i18n: English, Spanish, French.
+- back to top button located on right hand-lower-bottom side
+- mobile first design: make sure it fits in all devices. make a global rule for this.
+    - Mobile, Tablet, Laptop, Desktop, Ultrawide (set limit)
+    
+
+FONT:
+
+import lexend with all its weights https://fonts.google.com/specimen/Lexend?query=lexend
+
+global font 
+
+h1: 600 weight, size 70
+
+h2: 400 weight, size 40
+
+h3: 400 weight, sie 20
+
+p: 300 weight, size 20
+
+button: use h3
+
+COLORS:
+
+Light/dark mode theme trigger.
+
+light background: **#f0eee9**
+
+dark background: **#4a3f36**
+
+light font: **#4a3f36**
+
+dark font: #**f0eee9**
+
+primary: #34BBB4
+
+primary variant: #2A9691
+
+error: #F93F3F
+
+notification: #A0FF4D
+
+
+STYLE:
+
+- h1 is always on caps.
+- button style: square, fill
+- A **sectional, block-based** website layout with an **asymmetrical, layered** sections. The design features **full-width horizontal blocks**. The visual hierarchy is dominated by **oversized, geometric typography** and **rectangular imagery** that intentionally **overlaps the seams** of the color sections. The layout uses **z-index stacking** to create a **collage-style** depth, where text elements and photos are arranged in a **non-linear, zig-zag flow**.
+
+AESTHETIC:
+
+- asymmetrical, bespoke
+
+STRUCTURAL: 
+
+- fluid
+
+UX:
+
+- frictionless
+- intuitive
+- Immersive
+- Responsive
+
+NAVIGATION STRUCTURE: 
+
+non-linear navigation
+
+IMAGES/MEDIA:
+
+use current images in folder. they are labeled accordingly.
+
+SOCIAL MEDIA LINKS:
+
+Linkedin
+
+DOMAIN NAME:
+
+TBD
+
+PAGE:
+
+- HOME:
+    - Individuals (lorem ipsum text) (contains button that will link to “individuals” page)
+    - parents & family lorem ipsum text)  (contains button that will link to “parents & family” page)
+    - contact form
+        - Simple contact form using https://web3forms.com/. required “name”, “email”, “message”. mock user for now.
+        
+- INDIVIDUAL
+    - lorem impsum text
+    - SERVICES (based on user location)
+        - SPAIN: individual: price €80
+        - EU: individual: €110
+        - GLOBAL: individual: €150
+        - OTHER PAYMENT OPTIONS: in installments or contact me if its a special circumstance.
+    - calendly in-page widget
+    
+- PARENTS & FAMILY
+    - lorem impsum text
+    - SERVICES (based on user location)
+        - SPAIN: parents and family: 105€
+        - EU: parents and family: 140€
+        - GLOBAL: parents and family: 185€
+        - OTHER PAYMENT OPTIONS: in installments or contact me if its a special circumstance.
+    - calendly in-page widget
+
+- OTHERS
+    - lorem impsum text
+    - calendly in-page widget
+
+- COMPONENTS
+    - primary_button
+    - secondary_button
+    - navbar (contains all pages)
+    - footer (displays slight smaller navbar copy plus footer information(accesibility statement, cookie policy, terms of service ))
+    
+    ## Accessibility Statement – That's Very ADHD
+    
+    At **That's Very ADHD**, we are committed to ensuring that our website and services are accessible to all individuals, including those with disabilities. We strive to provide a user-friendly experience that accommodates a variety of accessibility needs.
+    
+    ---
+    
+    ### Accessibility Features
+    
+    We have taken the following measures to enhance the accessibility of our website:
+    
+    - Our website is designed to be **navigable using both keyboard and mouse**.
+    - We provide **alternative text (alt text)** for all non-text content, such as images and graphics, to ensure it can be interpreted by screen readers.
+    - We use **color contrast** that meets accessibility standards to ensure readability for individuals with visual impairments.
+    - We provide **captions and transcripts** for video and audio content whenever applicable.
+    - Our site supports **screen reader compatibility** for users with visual disabilities.
+    
+    ---
+    
+    ### Feedback & Assistance
+    
+    We are always looking for ways to improve our accessibility. If you encounter any accessibility issues while using our website or services, please let us know. We are happy to provide assistance or address any specific needs you may have to enhance your experience.
+    
+    If you have feedback, suggestions, or need assistance, please contact us at:
+    
+    - **Email:** support@thatsveryadhd.com
+    - **Website:** [www.thatsveryadhd.com](https://www.thatsveryadhd.com/)
+    
+    ---
+    
+    ### Third-Party Services
+    
+    While we make every effort to ensure our website is fully accessible, some third-party services we use, such as **Calendly and Stripe**, may not fully comply with all accessibility standards. We encourage you to reach out to us if you encounter any difficulties using these third-party services, and we will assist you in any way we can.
+    
+    ---
+    
+    ### Commitment to Accessibility
+    
+    We are committed to continuing to improve the accessibility of our website and services. We regularly review and update our website to ensure we are meeting accessibility best practices and complying with accessibility guidelines such as the **Web Content Accessibility Guidelines (WCAG) 2.1**.
+    
+    Thank you for your understanding and for being part of the That's Very ADHD community.
+    
+    Would you like me to help you format this into a PDF or a plain text file?
+    
+
+## Terms of Service – That's Very ADHD
+
+**Effective Date:** 5th of May, 2025
+
+Welcome to **That's Very ADHD**. These Terms of Service ("Terms") govern your use of our website, coaching services, educational resources, and other offerings provided by **Sarah K. Buendia** and her team ("we," "us," or "our"). By using any part of our services, you agree to these Terms.
+
+---
+
+### 1. Services Overview
+
+We provide ADHD and neurodiversity coaching, group programs, resources, and community support through [www.thatsveryadhd.com](https://www.thatsveryadhd.com/). Our services are designed for adults, parents, couples, and families seeking support around ADHD and neurodivergent experiences.
+
+### 2. Eligibility
+
+You must be **18 years or older** to use our services. By engaging with us, you confirm that you meet this requirement.
+
+### 3. Coaching Disclaimer
+
+Coaching is **not therapy, diagnosis, or medical treatment**. If you need mental health or medical support, please seek a licensed professional. Coaching complements—not replaces—professional health services.
+
+### 4. Client Responsibilities
+
+- Participate respectfully and honestly
+- Attend scheduled sessions on time
+- Take responsibility for your own decisions
+- Communicate openly and in good faith
+
+### 5. Payments & Refunds
+
+- All fees are listed in **euros (EUR)** unless otherwise stated.
+- Payment is due in advance via our booking or invoicing systems.
+- Completed sessions are **non-refundable**.
+- Cancellations with less than **24 hours’ notice** may be forfeited.
+
+### 6. Confidentiality
+
+Client information is kept confidential except as required by law or in cases where safety is at risk. Coaching notes are securely stored and accessible only to your coach.
+
+### 7. Intellectual Property
+
+All materials provided by That's Very ADHD are the intellectual property of Sarah K. Buendia unless otherwise credited. You may not reuse or redistribute materials without written permission.
+
+### 8. Community Conduct
+
+- Respect diverse identities and experiences
+- Avoid discrimination or harassment
+- Keep shared personal stories confidential
+- **Note:** Violation of these terms may result in removal from services without refund.
+
+### 9. Technology & Access
+
+Clients are responsible for ensuring a stable internet connection and access to the platforms we use. We are not responsible for disruptions caused by your device or connection.
+
+### 10. Changes to Terms
+
+We may update these Terms at any time. Updates will be posted to our website. Continued use of services means you accept the revised Terms.
+
+### 11. Limitation of Liability
+
+We are not liable for any indirect or consequential damages resulting from your use of our services. You are solely responsible for any decisions or actions taken based on coaching sessions or content.
+
+### 12. Governing Law
+
+These Terms are governed by the laws of **Spain**. Any disputes will be resolved under the jurisdiction of **Málaga, Spain**.
+
+### 13. Third-Party Services
+
+We use third-party services like Calendly (scheduling) and Stripe (payments). These providers have their own terms and privacy policies.
+
+- **Calendly:** https://calendly.com/privacy
+- **Stripe:** https://stripe.com/legal
+
+### 14. Termination
+
+We reserve the right to suspend or terminate access to our services if users violate these Terms, cause harm to others, or misuse the service.
+
+### 15. Force Majeure
+
+We are not responsible for delays or interruptions due to events beyond our control (e.g., natural disasters, pandemics, technical failures).
+
+---
+
+### Contact Us
+
+**Sarah K. Buendia** * **Email:** sarah@thatsveryadhd.com
+
+- **Website:** [www.thatsveryadhd.com](https://www.thatsveryadhd.com/)
+
+Thank you for choosing **That's Very ADHD**. We're honored to support you on your neurodivergent journey.

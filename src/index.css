@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: 'Lexend', sans-serif;
+
+    --color-primary: #34BBB4;
+    --color-primary-variant: #2A9691;
+    --color-error: #F93F3F;
+    --color-notification: #A0FF4D;
+
+    --color-bg-light: #f0eee9;
+    --color-bg-dark: #4a3f36;
+    --color-text-light: #4a3f36;
+    --color-text-dark: #f0eee9;
+
+    /* Semantic Aliases */
+    --color-page: var(--color-bg-light);
+    --color-text-main: var(--color-text-light);
+}
+
+:root {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    font-weight: 300;
+
+    color-scheme: light dark;
+    color: var(--color-text-main);
+    background-color: var(--color-page);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark mode override */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-page: var(--color-bg-dark);
+        --color-text-main: var(--color-text-dark);
+    }
+}
+
+/* Manual Dark Mode Class */
+.dark {
+    color-scheme: dark;
+    --color-page: var(--color-bg-dark);
+    --color-text-main: var(--color-text-dark);
+    color: var(--color-text-main);
+    background-color: var(--color-page);
+}
+
+body {
+    @apply min-h-screen flex flex-col;
+}
+
+h1 {
+    @apply font-semibold text-[70px] uppercase leading-tight;
+}
+
+h2 {
+    @apply font-normal text-[40px] leading-tight;
+}
+
+h3 {
+    @apply font-normal text-[20px];
+}
+
+p {
+    @apply font-light text-[20px];
+}
+
+button {
+    @apply font-normal text-[20px] rounded-none px-6 py-3 cursor-pointer transition-colors border-none;
+}

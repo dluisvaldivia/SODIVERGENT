@@ -1,0 +1,1 @@
+burger expandable options does not show selected when navigating with TAB
