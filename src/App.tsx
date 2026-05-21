@@ -31,7 +31,7 @@ const ContactPlaceholder = () => (
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Wrapper>
         <Routes>
           <Route path="/" element={<SoDivergent />} />
